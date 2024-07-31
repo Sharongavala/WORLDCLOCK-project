@@ -34,7 +34,7 @@ select {
     rgb(240, 251, 244) 100.7%
   );
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(116, 115, 115, 0.4);
 }
 .city {
