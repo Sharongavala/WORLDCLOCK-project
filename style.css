@@ -1,6 +1,66 @@
+body {
+  background: radial-gradient(73% 147%, #eadfdf 59%, #ece2df 100%),
+    radial-gradient(
+      91% 146%,
+      rgba(255, 255, 255, 0.5) 47%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+  font-family: sans-serif;
+}
 h1 {
   text-align: center;
+  font-size: 36px;
 }
+h2 {
+  margin: 0 0 10px;
+  font-size: 28px;
+}
+select {
+  display: block;
+  font-size: 18px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  background: radial-gradient(
+    328px at 2.9% 15%,
+    rgb(191, 224, 251) 0%,
+    rgb(232, 233, 251) 25.8%,
+    rgb(252, 239, 250) 50.8%,
+    rgb(234, 251, 251) 77.6%,
+    rgb(240, 251, 244) 100.7%
+  );
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(116, 115, 115, 0.4);
+}
+.city {
+  display: flex;
+  margin: 20px 0;
+  padding: 20px 0;
+  justify-content: space-between;
+  border-bottom: 1px dashed burlywood;
+}
+.city:last-child {
+  border: none;
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+}
+.time small {
+  font-size: 24px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+.date {
+  opacity: 0.7;
+}
+
 footer {
   text-align: center;
 }
