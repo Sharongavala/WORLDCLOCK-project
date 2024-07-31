@@ -33,7 +33,7 @@ select {
     rgb(234, 251, 251) 77.6%,
     rgb(240, 251, 244) 100.7%
   );
-  padding: 20px;
+  padding: 30px;
   border-radius: 20px;
   box-shadow: 10px 10px 10px rgba(116, 115, 115, 0.4);
 }
@@ -63,4 +63,5 @@ select {
 
 footer {
   text-align: center;
+  line-height: 48px;
 }

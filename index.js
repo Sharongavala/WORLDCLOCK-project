@@ -5,7 +5,7 @@ setInterval(function () {
   let losAngelesTime = moment().tz("America/Los_Angeles");
   losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
   losAngelesTimeElement.innerHTML = losAngelesTime.format(
-    "H:mm:ss:SSS [<small>] A [</small>]"
+    "H:mm:ss [<small>] A [</small>]"
   );
   let ParisElement = document.querySelector("#paris");
   let ParisDateElement = ParisElement.querySelector(".date");
@@ -13,6 +13,6 @@ setInterval(function () {
   let ParisTime = moment().tz("Europe/paris");
   ParisDateElement.innerHTML = ParisTime.format("MMMM Do YYYY");
   ParisTimeElement.innerHTML = ParisTime.format(
-    "H:mm:ss:SSS [<small>] A [</small>]"
+    "H:mm:ss [<small>] A [</small>]"
   );
 });
